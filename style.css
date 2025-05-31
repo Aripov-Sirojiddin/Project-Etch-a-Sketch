@@ -1,0 +1,32 @@
+.pixel {
+    background: white;
+    color: white;
+    border: none;
+    flex: 1;
+    min-height: 10px;
+    min-width: 10px;
+}
+
+.pixel:hover {
+    color: cyan;
+    background-color: cyan;
+}
+.color-btn {
+    border: none;
+    min-height: 25px;
+    min-width: 25px;
+    flex: 1;
+    border-radius: 5px;
+}
+.color-btn:hover {
+    border: 2px solid black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
